@@ -49,6 +49,13 @@ git add / git add .
 git commit -m "message"
 git push origin main 
 
+RENAME A BRANCH FROM LOCAL TO REPOSITORY
+git checkout old-branch-name
+git branch -m new-branch-name
+git push origin new-branch-name
+git push origin --delete old-branch-name
+
+
 CLONING
 git clone https://github.com/yourusername/yourrepository.git
 cd yourrepository
