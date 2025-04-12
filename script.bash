@@ -55,6 +55,11 @@ git branch -m new-branch-name
 git push origin new-branch-name
 git push origin --delete old-branch-name
 
+DELETE A BRANCH 
+git branch -d branch-name
+git branch -D branch-name 
+git push origin --delete branch-name
+
 
 CLONING
 git clone https://github.com/yourusername/yourrepository.git
