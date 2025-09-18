@@ -78,3 +78,7 @@ git checkout -b feature/
 git add . 
 git commit -m 
 git push origin feature/
+
+# quick fix if accidentally commit but not initialized 
+git update-ref -d HEAD
+
